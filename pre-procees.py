@@ -36,3 +36,10 @@ words = remove_noise_from_list(words)
 after_noise_removal = len(words)
 
 print('Words after noise removal:', after_noise_removal)
+
+# Write the words to a file
+with open('input/cleaned_input.txt', 'w') as f:
+    for w in words:
+        f.write(w + ' ')
+
+print('Done!')
