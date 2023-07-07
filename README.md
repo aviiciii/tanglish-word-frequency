@@ -14,10 +14,10 @@
     - Tanglish_Word_Frequency.csv (output.csv is a copy of it)
 
 ## Stats
-Total words before pre-process : **1,53,830**
+Total words before pre-process : **1,53,830** <br/>
 Total words after pre-process: **1,27,827** 
 
-Unique words in the output: **24,090**
-Frequency greater than 5: **2,292 words**
-Frequency greater than 10: **1,342 words**
+Unique words in the output: **24,090** <br/>
+Frequency greater than 5: **2,292 words** <br/>
+Frequency greater than 10: **1,342 words** <br/>
 Frequency grether than 50: **343 words**
