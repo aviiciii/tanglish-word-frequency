@@ -5,6 +5,9 @@ def count_word_frequency(text):
     # Split the text into words
     words = text.split()
 
+    # lowercase all the words
+    words = [word.lower() for word in words]
+
     # Count the frequency of each word
     word_counts = Counter(words)
 
