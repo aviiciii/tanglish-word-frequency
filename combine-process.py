@@ -1,10 +1,5 @@
 # clean the input
-
-# read tsv
-
 import pandas as pd
-import numpy as np
-import re
 
 # read tsv
 df = pd.read_csv('input/tamil_train.tsv', sep='\t', header=None)
@@ -16,13 +11,10 @@ df = df.drop([0], axis=0)
 # rename the column
 df.columns = ['text']
 
-
+# list of sentences
 sentences = df['text'].values
 
-
-
-print(sentences)
-
+# write to file
 with open('input/raw.txt', 'a') as f:
     for s in sentences:
         f.write(s + ' ')
